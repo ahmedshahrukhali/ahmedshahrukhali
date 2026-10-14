@@ -8,7 +8,7 @@
 
 ---
 
-### 💼 Experience & Background
+### 💼 Experience & Track Record
 
 - 🏢 **Previously at [Kinaxis](https://www.kinaxis.com/)** (2024–2025): Built enterprise copilots and autonomous multi-agent workflows with LangGraph on Azure OpenAI with human-in-the-loop review checkpoints.
 - ⚡ **Data Engineering & Performance**: Engineered scalable pipelines on Databricks; migrated core batch data workloads from Pandas to **Polars**, slashing execution runtimes by **~75%**.
@@ -25,7 +25,7 @@
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Featured Systems & Projects
 
 - **[GraphRAG Aero](https://github.com/ahmedshahrukhali/graphrag-aero)**  
   Multilingual question answering over 77k chunks of Canadian aviation safety reports (English, French, Chinese). Combines BGE-M3 dense retrieval in Qdrant with cross-encoder reranking, Neo4j graph entity traversal, and a LangGraph human-in-the-loop review agent backed by FastAPI and Gradio.
@@ -41,8 +41,9 @@
 
 ---
 
-### 📂 About This Repository
+### 📊 GitHub Activity
 
-This repository serves dual purposes:
-1. **GitHub Profile README**: Displayed directly on [@ahmedshahrukhali](https://github.com/ahmedshahrukhali).
-2. **Personal Portfolio Site**: Hosted via GitHub Pages with pure HTML & CSS (`index.html` and `style.css`), featuring interactive dark/light mode toggle and category-filtered project archive.
+<p align="center">
+  <img height="155" src="https://github-readme-stats.vercel.app/api?username=ahmedshahrukhali&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ahmed's GitHub Stats" />
+  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedshahrukhali&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
