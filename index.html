@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahmed Shahrukh Ali &mdash; Applied ML Engineer</title>
+  <meta name="description" content="Applied machine learning engineer building end-to-end systems.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23222'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' text-anchor='middle' fill='%23fff'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top-Right Dark / Light Mode Toggle Switch -->
+  <aside class="theme-switch-wrapper" aria-label="Theme toggle">
+    <svg class="theme-icon sun" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+    <label class="switch" for="theme-toggle" aria-label="Toggle dark mode">
+      <input type="checkbox" id="theme-toggle" />
+      <span class="slider"></span>
+    </label>
+    <svg class="theme-icon moon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+    </svg>
+  </aside>
+
+  <div class="site-wrapper">
+
+    <!-- 100vh Full Splash Hero Screen (Nothing else visible until you scroll) -->
+    <header class="intro-splash" id="intro">
+      <div class="intro-splash__inner">
+        <h1 class="intro__hello">Hello!</h1>
+
+        <h2 class="intro__tagline">
+          I'm <span class="name">Ahmed Shahrukh Ali</span>, an applied machine learning engineer focused on building end-to-end systems &mdash; taking models out of notebooks and into production.
+        </h2>
+
+        <div class="intro__contact">
+          <span class="contact-prompt">Get in touch &rarr;</span>
+          <a href="mailto:ahmedshahrukhali@gmail.com" class="highlight-link">Email</a>
+          <span class="dot">&bull;</span>
+          <a href="https://github.com/ahmedshahrukhali" class="highlight-link" target="_blank" rel="noopener">GitHub</a>
+          <span class="dot">&bull;</span>
+          <a href="https://linkedin.com/in/ahmedshahrukhali" class="highlight-link" target="_blank" rel="noopener">LinkedIn</a>
+          <span class="dot">&bull;</span>
+          <a href="https://ahmedshahrukhali.github.io/mlops/" class="highlight-link" target="_blank" rel="noopener">MLOps Notes</a>
+        </div>
+      </div>
+
+      <!-- Subtle scroll indicator -->
+      <a href="#background" class="scroll-down" aria-label="Scroll to content">
+        <span>&darr;</span>
+      </a>
+    </header>
+
+    <!-- Main Content Flow (Appears only on scroll) -->
+    <main class="content-flow">
+
+      <!-- Section 1: Background -->
+      <section class="section" id="background">
+        <div class="section__title">Background</div>
+        <div class="section__content">
+          <p>
+            I'm an applied machine learning engineer based in Toronto, Canada. Previously at <a href="https://www.kinaxis.com/" class="highlight-link" target="_blank" rel="noopener">Kinaxis</a>, I built enterprise copilot and multi-agent workflows with LangGraph on Azure and engineered high-throughput data pipelines on Databricks, migrating core batch pipelines from Pandas to Polars for ~75% runtime reductions.
+          </p>
+          <p>
+            I specialize in end-to-end architectures that bridge modeling and infrastructure &mdash; whether that is parsing 77,000 aviation safety document chunks through dense vector retrieval (BGE-M3 in Qdrant) and Neo4j knowledge graphs, or wiring LightGBM forecasting directly into ERP reordering engines.
+          </p>
+          <p>
+            I hold a B.Eng. in Electrical Engineering from Carleton University and postgraduate credentials in <strong>Applied A.I. Solution Development</strong> from George Brown College, backed by <strong>Azure AI Engineer Associate</strong> and <strong>AWS Solutions Architect &ndash; Associate</strong> certifications.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section 2: Skills (3-Column Categorized Grid) -->
+      <section class="section" id="skills">
+        <div class="section__title">Skills</div>
+        <div class="section__content">
+          <div class="skill-grid">
+            <div class="skill-col">
+              <h3 class="skill-heading">ML &amp; Agents</h3>
+              <ul>
+                <li>PyTorch</li>
+                <li>LangGraph (Agentic Workflows)</li>
+                <li>LightGBM &amp; XGBoost</li>
+                <li>Hugging Face (TRL, Transformers)</li>
+                <li>BGE-M3 &amp; Cross-Encoders</li>
+                <li>GRPO / Post-Training</li>
+              </ul>
+            </div>
+            <div class="skill-col">
+              <h3 class="skill-heading">Data &amp; Retrieval</h3>
+              <ul>
+                <li>Polars &amp; Pandas</li>
+                <li>Databricks &amp; PySpark</li>
+                <li>Qdrant (Dense Vector DB)</li>
+                <li>Neo4j (Knowledge Graphs)</li>
+                <li>PostgreSQL &amp; SQLite</li>
+                <li>Kafka &amp; Redis</li>
+              </ul>
+            </div>
+            <div class="skill-col">
+              <h3 class="skill-heading">Cloud &amp; Systems</h3>
+              <ul>
+                <li>Microsoft Azure (Certified)</li>
+                <li>AWS (Certified Solutions Architect)</li>
+                <li>FastAPI</li>
+                <li>Docker &amp; Kubernetes</li>
+                <li>CI/CD &amp; GitHub Actions</li>
+                <li>Odoo 17 ORM &amp; OWL JS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Featured Projects -->
+      <section class="section" id="featured">
+        <div class="section__title">Featured</div>
+        <div class="section__content">
+          <div class="featured-list">
+
+            <article class="featured-card">
+              <div class="featured-header">
+                <span class="featured-label">Multilingual RAG</span>
+                <h3 class="featured-title"><a href="https://github.com/ahmedshahrukhali/graphrag-aero" target="_blank" rel="noopener">GraphRAG Aero</a></h3>
+                <div class="featured-links">
+                  <a href="https://github.com/ahmedshahrukhali/graphrag-aero" target="_blank" rel="noopener">[code]</a>
+                </div>
+              </div>
+              <p>
+                Question answering over 77k chunks of Canadian aviation safety reports in English, French, and Chinese. Combines BGE-M3 dense retrieval in Qdrant with cross-encoder reranking, Neo4j graph entity expansion, and a LangGraph human-in-the-loop review agent backed by FastAPI and Gradio.
+              </p>
+              <ul class="tag-list">
+                <li>Qdrant</li>
+                <li>Neo4j</li>
+                <li>LangGraph</li>
+                <li>FastAPI</li>
+                <li>BGE-M3</li>
+              </ul>
+            </article>
+
+            <article class="featured-card">
+              <div class="featured-header">
+                <span class="featured-label">Enterprise ERP ML</span>
+                <h3 class="featured-title"><a href="https://github.com/ahmedshahrukhali/odoo-ml-forecast" target="_blank" rel="noopener">Odoo ML Restock Forecast</a></h3>
+                <div class="featured-links">
+                  <a href="https://github.com/ahmedshahrukhali/odoo-ml-forecast" target="_blank" rel="noopener">[addon code]</a>
+                </div>
+              </div>
+              <p>
+                Production Odoo 17 module that trains LightGBM regressors on historical sales order series and writes 7-day demand forecasts directly into native inventory reordering rules (`stock.warehouse.orderpoint`). Includes an interactive OWL dashboard embedded in Odoo Inventory.
+              </p>
+              <ul class="tag-list">
+                <li>Odoo 17</li>
+                <li>LightGBM</li>
+                <li>Python ORM</li>
+                <li>OWL JS</li>
+              </ul>
+            </article>
+
+            <article class="featured-card">
+              <div class="featured-header">
+                <span class="featured-label">Open Source Contribution</span>
+                <h3 class="featured-title"><a href="https://github.com/huggingface/cookbook" target="_blank" rel="noopener">Hugging Face Cookbook</a></h3>
+                <div class="featured-links">
+                  <a href="https://github.com/huggingface/cookbook" target="_blank" rel="noopener">[repo]</a>
+                </div>
+              </div>
+              <p>
+                Contributed engineering fixes to the vision-language GRPO (Group Relative Policy Optimization) recipe for modern TRL: conversational chat templating, reward function alignment, and pinned stable dependencies.
+              </p>
+              <ul class="tag-list">
+                <li>TRL</li>
+                <li>GRPO</li>
+                <li>PyTorch</li>
+                <li>VLM</li>
+              </ul>
+            </article>
+
+            <article class="featured-card">
+              <div class="featured-header">
+                <span class="featured-label">Hardware &amp; Audio</span>
+                <h3 class="featured-title"><a href="https://github.com/ahmedshahrukhali/LaunchpadHero" target="_blank" rel="noopener">LaunchpadHero</a></h3>
+                <div class="featured-links">
+                  <a href="https://github.com/ahmedshahrukhali/LaunchpadHero" target="_blank" rel="noopener">[code]</a>
+                </div>
+              </div>
+              <p>
+                A Guitar Hero-style rhythm game for physical Novation Launchpad controllers, converting real-time MIDI input streams into synchronized audio-visual gameplay.
+              </p>
+              <ul class="tag-list">
+                <li>Python</li>
+                <li>Mido</li>
+                <li>Pygame</li>
+                <li>MIDI Hardware</li>
+              </ul>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: Experience -->
+      <section class="section" id="experience">
+        <div class="section__title">Experience</div>
+        <div class="section__content">
+          <div class="job-item">
+            <div class="job-meta">
+              <h3 class="job-role">AI / ML Engineer &mdash; <a href="https://www.kinaxis.com/" class="highlight-link" target="_blank" rel="noopener">Kinaxis</a></h3>
+              <span class="job-date">2024 &ndash; 2025</span>
+            </div>
+            <p class="job-desc">
+              Built enterprise copilot and multi-agent workflows using LangGraph and Azure OpenAI, incorporating human-in-the-loop review checkpoints. Engineered large-scale data pipelines on Databricks, migrating core batch workloads from Pandas to Polars to cut execution runtimes by ~75%.
+            </p>
+            <ul class="tag-list" style="margin-top: 12px;">
+              <li>LangGraph</li>
+              <li>Azure OpenAI</li>
+              <li>Databricks</li>
+              <li>Polars</li>
+              <li>PySpark</li>
+              <li>FastAPI</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 5: Archive (with Filter Controls) -->
+      <section class="section" id="archive">
+        <div class="section__title">Archive</div>
+        <div class="section__content">
+
+          <div class="filter-bar">
+            <span class="filter-label">Filter:</span>
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="project">Projects</button>
+            <button class="filter-btn" data-filter="open source">Open Source</button>
+            <button class="filter-btn" data-filter="certification">Certifications</button>
+            <button class="filter-btn" data-filter="education">Education</button>
+          </div>
+
+          <table class="archive-table">
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Links</th>
+              </tr>
+            </thead>
+            <tbody id="archive-body">
+              <tr data-tag="certification">
+                <td class="archive-year">2024</td>
+                <td class="archive-title">Microsoft Certified: Azure AI Engineer Associate</td>
+                <td><span class="badge">Certification</span></td>
+                <td class="archive-links"><a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/" target="_blank" rel="noopener">[credential]</a></td>
+              </tr>
+              <tr data-tag="certification">
+                <td class="archive-year">2024</td>
+                <td class="archive-title">AWS Certified Solutions Architect &ndash; Associate</td>
+                <td><span class="badge">Certification</span></td>
+                <td class="archive-links"><a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank" rel="noopener">[credential]</a></td>
+              </tr>
+              <tr data-tag="open source">
+                <td class="archive-year">2024</td>
+                <td class="archive-title">Hugging Face Cookbook &mdash; Vision-Language GRPO Recipe</td>
+                <td><span class="badge">Open Source</span></td>
+                <td class="archive-links"><a href="https://github.com/huggingface/cookbook" target="_blank" rel="noopener">[repo]</a></td>
+              </tr>
+              <tr data-tag="project">
+                <td class="archive-year">2023</td>
+                <td class="archive-title">PDF Chat &mdash; Document Q&amp;A tool via LangChain and HF</td>
+                <td><span class="badge">Project</span></td>
+                <td class="archive-links"><a href="https://github.com/ahmedshahrukhali/PDFChatGradio" target="_blank" rel="noopener">[repo]</a></td>
+              </tr>
+              <tr data-tag="education">
+                <td class="archive-year">2023</td>
+                <td class="archive-title">George Brown College &mdash; Applied A.I. Solution Development</td>
+                <td><span class="badge">Education</span></td>
+                <td class="archive-links"><a href="https://github.com/ahmedshahrukhali/MLatGB" target="_blank" rel="noopener">[coursework]</a></td>
+              </tr>
+              <tr data-tag="education">
+                <td class="archive-year">2023</td>
+                <td class="archive-title">Deep Learning Specialization &mdash; CNNs, RNNs &amp; Optimization</td>
+                <td><span class="badge">Education</span></td>
+                <td class="archive-links"><a href="https://github.com/ahmedshahrukhali/AcademicProjects" target="_blank" rel="noopener">[notebooks]</a></td>
+              </tr>
+              <tr data-tag="project">
+                <td class="archive-year">2023</td>
+                <td class="archive-title">Kickstarter Crowdfunding Analysis &mdash; SQL Cohort Modeling</td>
+                <td><span class="badge">Project</span></td>
+                <td class="archive-links"><a href="https://github.com/ahmedshahrukhali/KickstarterSQL" target="_blank" rel="noopener">[sql]</a></td>
+              </tr>
+              <tr data-tag="project">
+                <td class="archive-year">2021</td>
+                <td class="archive-title">MLOps Notes &amp; Reproducible Machine Learning Notebooks</td>
+                <td><span class="badge">Project</span></td>
+                <td class="archive-links"><a href="https://ahmedshahrukhali.github.io/mlops/" target="_blank" rel="noopener">[site]</a></td>
+              </tr>
+              <tr data-tag="project">
+                <td class="archive-year">2021</td>
+                <td class="archive-title">Canadian Political Party Email Analysis &mdash; Exploratory EDA</td>
+                <td><span class="badge">Project</span></td>
+                <td class="archive-links"><a href="https://github.com/ahmedshahrukhali/sedna-exercise" target="_blank" rel="noopener">[repo]</a></td>
+              </tr>
+              <tr data-tag="education">
+                <td class="archive-year">2021</td>
+                <td class="archive-title">Full Stack Open &mdash; Modern React, Node &amp; REST APIs</td>
+                <td><span class="badge">Education</span></td>
+                <td class="archive-links"><a href="https://github.com/ahmedshahrukhali/fullstackopen" target="_blank" rel="noopener">[exercises]</a></td>
+              </tr>
+              <tr data-tag="education">
+                <td class="archive-year">&mdash;</td>
+                <td class="archive-title">Carleton University &mdash; B.Eng. Electrical Engineering</td>
+                <td><span class="badge">Education</span></td>
+                <td class="archive-links"><span style="color: var(--muted); font-family: var(--font-mono); font-size: 13px;">[degree]</span></td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>Ahmed Shahrukh Ali &bull; Applied Machine Learning Engineer &bull; Toronto, Canada</p>
+      </footer>
+
+    </main>
+
+  </div>
+
+  <script>
+    // Theme toggle (Defaults to Light mode, persists in localStorage)
+    const toggle = document.getElementById('theme-toggle');
+    const storedTheme = localStorage.getItem('theme');
+
+    if (storedTheme === 'dark') {
+      document.documentElement.classList.add('dark');
+      toggle.checked = true;
+    } else {
+      document.documentElement.classList.remove('dark');
+      toggle.checked = false;
+    }
+
+    toggle.addEventListener('change', () => {
+      if (toggle.checked) {
+        document.documentElement.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+      }
+    });
+
+    // Archive category filtering
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const tableRows = document.querySelectorAll('#archive-body tr');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filterVal = btn.getAttribute('data-filter');
+        tableRows.forEach(row => {
+          const tag = row.getAttribute('data-tag');
+          if (filterVal === 'all' || tag === filterVal) {
+            row.style.display = '';
+          } else {
+            row.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
